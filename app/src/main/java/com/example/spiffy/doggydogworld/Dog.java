@@ -15,4 +15,9 @@ public class Dog {
         String bark = name + " barked";
         Log.d("Dog",bark);
     }
+
+    void barkAt(String victim){
+        String bark = name + " barked at " +victim;
+        Log.d("Dog", bark);
+    }
 }

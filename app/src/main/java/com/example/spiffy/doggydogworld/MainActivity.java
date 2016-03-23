@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         yourDog.name = "Rex";
 
         myDog.bark();
+        myDog.barkAt("a cat");
 
     }
 }
