@@ -11,6 +11,13 @@ public class Dog {
     private int numberOfLegs = 4;
     private String breed;
 
+    Dog(){
+        Log.d("Dog", "Constructing...");
+    }
+
+    Dog(String dogName){
+        name = dogName;
+    }
     public void bark(){
         String bark = name + " barked";
         Log.d("Dog",bark);

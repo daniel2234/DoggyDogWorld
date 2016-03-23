@@ -11,13 +11,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Dog myDog = new Dog();
-        myDog.name = "Doge";
+        Dog myDog = new Dog("Doge");
 
-        Dog yourDog = new Dog();
-        yourDog.name = "Rex";
+        Dog yourDog = new Dog("Rex");
 
-        myDog.bark();
         myDog.barkAt("a cat");
 
     }
